@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;   
+    margin: 0; 
+}
+body {
+    background: darkgrey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    display: none;
+    text-align: right;
+}
+
+#menu {
+    display: none;
+}
+
+.header-nav {
+    display: inline;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+
+.header-nav ul {
+    padding:0;
+    margin: 0 30px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+
+}
+
+a:hover{
+    color: dodgerblue;
+}
+
+nav ul li {
+    margin: 0 65px;
+    padding: 10px;
+    display: inline-block;
+    list-style: none;
+    font-size: 22px;
+}
+
+nav ul li a {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    
+}
+
+.logo-ilyo img {
+    padding: 10px;
+    max-width: 165px;
+    height: auto; 
+}
+
+.ilyo-intro{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ilyo-intro img{
+    border-radius: 450px;
+    max-width: 960px;
+    margin: 25px 0;
+    box-shadow: 10px 10px 30px black;
+}
+
+.ilyo-intro h2{
+    font-size: 70px;
+    margin: 25px 0;
+}
+.ilyo-intro h3{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+
+.ilyo-intro h4{
+    font-size: 20px;
+}
+
+.two-w {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.two-w button {
+    text-align: center;
+    font-size: 28px;
+    background-color: darkslateblue;
+    color: white;
+    padding: 5px; 
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 10px 10px 30px black;
+}
+.articles {
+    margin: 10px 0;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.ilyo-what {
+    width: 50%;
+    margin: 0 5px;
+}
+
+.ilyo-why {
+    width: 50%;
+    margin: 0 5px;
+}
+
+.ilyo-redirects {
+    background-image: url("../Photos/woodboard.jpg");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.redirect-container {
+    width: 30%
+}
+
+.redirect-container button {
+    background-color: crimson;
+    font-size: 25px;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 10px 10px 30px black;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+.address {
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.address h4 {
+    font-size: 30px;
+}
+
+.address p{
+    font-size: 15px;
+}
+
+.address a {
+    background-color: slateblue;
+    color: white;
+    margin: 0 25px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.hours {
+   margin: 0 auto;
+    text-align: center;  
+    font-size: 15px; 
+}
+
+.hours h4 {
+    font-size: 20px;
+}
+
+.hours li{
+    text-align: left;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.hours ul {
+    padding: 0;
+}
+
+.social-media {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px    ;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #55ACEE;
+    color: white;
+  }
+
+
+  main h2 {
+      text-align: center;
+      font-size: 80px;
+      font-family: 'Roboto', sans-serif;
+      padding: 20px 0;
+  }
+  .row {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      text-align: center;
+  }
+
+  .top {
+      width: 50%;
+  }
+
+  .bottom {
+      width: 50%;
+  }
+
+  
+  .row-container {
+      background-image: url(../Photos/woodboard.jpg);
+      width: 95%;
+      height: 30%;
+      border-radius: 30px;
+      margin: 20px 20px;
+      padding: 20px;
+  }
+
+  .row-container ul {
+      background-color: white;
+      border-radius: 15px;
+      padding: 10px 0;
+      box-shadow: 10px 10px 30px black;
+  }
+
+  .row-container li {
+      text-align: center;
+  }
+
+  .row-container h3 {
+      background-color: slateblue;
+      border-radius: 30px;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 25px;
+      box-shadow: 10px 10px 30px black;
+      color: white;
+  }
+
+  .row-container h4 {
+      background-color: crimson;
+      border-radius: 10px;
+      padding:5px;
+      margin: 5px 0;
+      box-shadow: 10px 10px 30px black;
+      color: white;
+  }
+
+  .joinToday {
+      background-color: crimson;
+      border-radius: 50px;
+      padding: 40px 10px;
+      margin: 0 auto;
+      color: white;
+      font-size: 30px;
+      text-decoration: none;
+      box-shadow: 10px 10px 30px black;
+  }
+
+  form {
+        margin: 20px 200px;
+        padding: 20px 30px;
+        background-color: white;
+
+  }
+
+  legend {
+      font-weight: bold;
+      background-color: slateblue;
+      color: white;
+      font-size: 30px;
+      border-radius: 15px;
+      padding: 10px;
+  }
+
+  label {
+      display: flex;
+      width: 500px;
+      margin: 10px 0;
+      justify-content: space-between;
+      align-items: center; 
+  }
+
+  input {
+    padding-top: 30px;
+    border: 1px solid black;
+    padding: 5px 40px ;
+    text-align: center;
+  }
+
+  select {
+      width: 500px; 
+      padding: 10px;
+      border: 1px solid black;
+      text-align: center;
+      margin: 20px 0;
+  }
+
+  option {
+      font-size: 30px;
+  }
+
+  fieldset {
+      box-shadow: 10px 10px 9px darkgrey;
+      background-color: lightgrey;
+  }
+
+  textarea {
+      margin: 20px 0;
+  }
+  
+  button {
+      background-color: crimson;
+      padding: 20px;
+      font-size: 40px;
+      color: white;
+      border-radius: 30px;
+      margin: 22px 326px;
+      text-align: center;
+      box-shadow: 10px 10px 9px darkgray;
+  }
+  .gallery {
+      padding: 50px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .column img:hover {
+      filter: grayscale(100%);
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+ @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 50%;
+    }
+    
+    header label {
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        margin:0 20px 0 150px;
+        background-color: slateblue;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        padding: 0 5px;
+        border-radius: 15px;
+        box-shadow: 10px 10px 10px black;
+    }
+
+    
+    
+
+    header label:hover {
+        box-shadow: none;
+    }
+
+    .header-nav {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .header-nav a {
+        display: block;
+        margin: 0;
+        font-size: 15px;
+        text-align: right;
+        
+    }
+    #menu:checked + .header-nav {
+        display: block;
+
+    }
+
+    .ilyo-intro {
+        font-size: 20px;
+    }
+
+    .ilyo-intro h2 {
+        font-size: 30px;
+    }    
+
+    .ilyo-intro img {
+        width: 100%;
+    }
+   .two-w {
+       display: block;
+       width: 100%;
+       text-align: center;
+   }
+
+   .ilyo-what {
+       width: 100%;
+   }
+
+   .ilyo-why {
+       width: 100%
+   }
+   .ilyo-redirects {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+    .redirect-container {
+    width: 100%;
+    padding: 0 20px
+  }
+
+  .redirect-container button {
+      width: 80%;
+      font-size: 20px;
+  }
+
+  .address h4 {
+      font-size: 15px;
+  }
+  .address p {
+      font-size: 10px;
+  }
+  .address a {
+      font-size: 15px;
+  }
+  .hours li {
+      font-size: 10px;
+  }
+
+  .row {
+      display: block;
+      width: 100%;
+  }
+
+  .top {
+      width: 100%;
+  }
+  .bottom {
+      width: 100%;
+
+  }
+  main h2 {
+      font-size: 30px;
+  }
+  
+  form {
+      display: block;
+      margin: 20px 35px;
+  }
+
+  fieldset {
+      text-align: center;
+      padding: 10px 10px;
+  }
+
+  legend {
+      font-size: 20px;
+  }
+
+  input {
+      text-align: left;
+  }
+ form label {
+     width:100%
+ }
+
+ form select {
+     width: 200px;
+ }
+
+ #comments-field {
+     width: 200px;
+ }
+
+ form button {
+     margin: 20px 132px;
+     font-size: 20px;
+     border-radius: 15px;
+     text-align: center;
+     
+ }
+
+}
